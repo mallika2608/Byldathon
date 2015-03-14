@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feedbackTypeList">
+        <item>@string/feedbackType1</item>
+        <item>@string/feedbackType2</item>
+        <item>@string/feedbackType3</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/hello">
+
+
+    <Button
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selectorbutton1"
+        android:id="@+id/forMCD"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:onClick="goToMCD"
+        />
+
+    <Button
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selectorbutton1"
+        android:id="@+id/forpublic"
+        android:layout_below="@+id/forMCD"
+        android:layout_alignRight="@+id/forMCD"
+        android:layout_alignEnd="@+id/forMCD"
+        android:layout_marginTop="18dp"
+        android:clickable="true"
+        android:onClick="loadCitizen"
+        android:textAllCaps="false"/>
+
+
+
+</RelativeLayout>
